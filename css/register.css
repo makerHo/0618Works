@@ -68,6 +68,11 @@
 .reg_login_text{
 	
 }
+.feedback{
+	height: 40px;
+	width: 100%;
+	color: #FFFFFF;
+}
 .section{
 	width: 330px;
 	height:465px;
@@ -106,6 +111,7 @@
 	font-size: 16px;
 	box-sizing: border-box;
 	padding-left: 20px;
+	border-radius: 5px;
 }
 .email_feedback,.pwd_feedback,.repwd_feedback,.Scode_feedback{
 	width: 100%;
@@ -132,4 +138,12 @@ input.Scode{
 	width: 100px;
 	height: 30px;
 	border: 1px solid #ccc;
+}
+.pic{
+	display: none;	
+}
+
+.pic+label{
+	font-size: 12px;
+	color: #FF5F29;
 }
