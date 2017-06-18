@@ -2,9 +2,58 @@
 <html>
 	<head>
 		<meta charset="utf-8" />
-		<title></title>
+		<title>register</title>
+		<link rel="stylesheet" type="text/css" href="css/register.css"/>
+		<script src="js/register.js"></script>
+		<script src="js/Tools.js"></script>
 	</head>
 	<body>
-		
+		<dev class="wrap">
+			<div class="header">
+				<div class="header-middle">
+					<div class="header_logo">
+						<img src="img/timg.png"/>
+					</div>
+					<div class="login_text">
+						<ul>
+							<li class="reg_login_text"><a href="">LoginIn</a></li>
+							<li class="reg_login_register"><a href="">register ?</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="section">
+				<div class="sec_header">
+					<div class="sec_header_text_l"><h3>Creat a New Account</h1></div>
+					<div class="sec_header_text_r"></div>
+				</div>
+				<div class="sec_form">
+					<div class="forms">
+						<label for="email">E-mail:</label><br />
+						<input type="text" class="email" id="email" placeholder="E-mail address"/>
+						<div class="email_feedback"></div>
+					</div>
+					<div class="forms">
+						<label for="pwd">Password:</label><br />
+						<input type="password" class="pwd" id="pwd" placeholder="password"/>
+						<div class="pwd_feedback"></div>
+					</div>
+					<div class="forms">
+						<label for="repwd">Confirm Password:</label><br />
+						<input type="text" class="repwd" id="repwd" placeholder="Confirm Password"/>
+						<div class="repwd_feedback"></div>
+					</div>
+					<div class="forms">
+						<label for="Scode">Security Code:</label><br />
+						<input type="text" class="Scode" id="Scode" placeholder="Security Code"/>
+						<span></span>
+						<div class="Scode_feedback"></div>
+					</div>
+					<div class="forms">
+						<input type="button" name="regBtn" class="regBtn" value="Submit" />
+					</div>
+				</div>
+			</div>
+		</dev>
 	</body>
 </html>
